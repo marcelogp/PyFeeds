@@ -25,7 +25,7 @@ class TvthekOrfAtSpider(FeedsSpider):
         # days (i.e. old contents of our feed) anyways.
         # It's not enough to parse only today because we might miss shows that
         # aired just before midnight but were streamed after midnight
-        # (see also https://github.com/nblock/feeds/issues/27)
+        # (see also https://github.com/PyFeeds/PyFeeds/issues/27)
         today = datetime.now(gettz(self._timezone))
         for day in [today, today - timedelta(days=1)]:
             yield Request(

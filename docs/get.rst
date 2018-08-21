@@ -9,8 +9,8 @@ master branch:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/nblock/feeds.git
-    $ cd feeds
+    $ git clone https://github.com/PyFeeds/PyFeeds.git
+    $ cd PyFeeds
     $ python3 -m venv venv
     $ source bin/activate
     $ pip install -e .

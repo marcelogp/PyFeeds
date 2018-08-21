@@ -15,6 +15,6 @@ Pull requests
 * Create a topic branch and make your desired changes.
 * Open a pull request. Make sure the travis checks are passing.
 
-.. _Feeds uses GitHub: https://github.com/nblock/feeds
-.. _issue tracker: https://github.com/nblock/feeds/issues
-.. _new issue: https://github.com/nblock/feeds/issues/new
+.. _Feeds uses GitHub: https://github.com/PyFeeds/PyFeeds
+.. _issue tracker: https://github.com/PyFeeds/PyFeeds/issues
+.. _new issue: https://github.com/PyFeeds/PyFeeds/issues/new

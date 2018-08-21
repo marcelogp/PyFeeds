@@ -48,7 +48,7 @@ HTTPCACHE_DIR = save_cache_path("feeds")
 HTTPCACHE_IGNORE_HTTP_CODES = []
 
 # Default user agent. Can be overriden in feeds.cfg.
-USER_AGENT = "feeds (+https://github.com/nblock/feeds)"
+USER_AGENT = "PyFeeds (+https://github.com/PyFeeds/PyFeeds)"
 
 # Set default level to info.
 # Can be overriden with --loglevel parameter.
