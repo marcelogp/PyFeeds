@@ -17,7 +17,7 @@ def load_feeds_settings(file_):
             file_ = open(config_file_path, "r")
         except IOError:
             logger.info("Could not load config file from {}!".format(config_file_path))
-            return settings
+            raise
 
     logger.debug("Parsing configuration file {} ...".format(file_.name))
     # Parse configuration file and store result under FEEDS_CONFIG of scrapy's

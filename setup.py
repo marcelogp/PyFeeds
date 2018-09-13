@@ -8,7 +8,9 @@ setup(
     author_email="florian@nblock.org, lukas@lukasanzinger.at",
     url="https://github.com/nblock/feeds",
     packages=find_packages(),
-    include_package_data=True,
+    #include_package_data=True,
+    # package_data={"": ["scrapy.cfg"]},
+    data_files=[('.', ['scrapy.cfg'])],
     install_requires=[
         "Click>=6.6",
         "Scrapy>=1.1",
